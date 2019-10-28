@@ -1,0 +1,48 @@
+.boxes{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.box-1{
+	background-color: yellow;
+	width: 204px;
+	height:300px;
+	display: inline-block;
+	margin-right:40px;
+	transition-duration: 0.5s;
+	
+}
+.box-1:hover{
+	background-color: white;
+}
+.box-1:last-child{
+margin-right: 0px;
+}
+.logo{
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.box-1 h1{
+	text-align: center;
+	margin-top: 75%;
+	background-color: red;
+	display: block;
+	height: 50px;
+
+}
+.box1{
+	float: left;
+}
+.image{
+	width: 500px;
+	margin: 75px;
+	float: left;
+}
+.h1{
+	float: right;
+	margin-top: 200px;
+
+}
